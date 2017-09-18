@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableID"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:padding="14dp"
+            android:background="@color/colorRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="first name"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="last name"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="age"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+        <!--second row -->
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Liron"
+                android:textColor="@color/colorRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Seliktar"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="25"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollViewID"
+        android:layout_below="@id/tableID"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eerewrwerwerwerwerewrewrrewrwerewrwerwerewrwerwerewrwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerweerwerwerwerwerwerwereerewrwerwerwerwerewrewrrewrwerewrwerwerewrwerwerewrwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerweerwerwerwerwerwerwereerewrwerwerwerwerewrewrrewrwerewrwerwerewrwerwerewrwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerweerwerwerwerwerwerwer"/>
+        >
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="font font"
+       style="@style/CostumeStyle"
+        android:layout_below="@id/scrollViewID"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+</RelativeLayout>

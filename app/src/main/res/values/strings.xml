@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTutorial</string>
+    <string name="Play_Button" />
+    <string name="play_button">press to play</string>
+    <string name="button_play">press to play</string>
+    <string name="song_name">song name</string>
+    <string name="artist_name">artist name</string>
+</resources>
